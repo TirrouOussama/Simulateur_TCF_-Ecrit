@@ -1,0 +1,585 @@
+{
+  "simulations": {
+    "TCF - Simulation 1": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Conseil pour une salle de sport",
+          "range": [60, 120],
+          "instruction": "Votre ami(e) souhaite commencer une activité physique et vous demande des recommandations sur les salles de sport de votre quartier.",
+          "prompt": "Écrivez-lui un message pour lui recommander une salle en particulier, lui donner des informations sur les tarifs, les équipements et lui proposer de l'accompagner pour une première séance.",
+          "rules": ["60 à 120 mots", "Ton amical"],
+          "hint": "Précisez l'adresse ou le quartier, les points forts du club et donnez une date de rendez-vous."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Témoignage sur la colocation",
+          "range": [120, 150],
+          "instruction": "Le site spécialisé 'colocation.com' cherche des témoignages de personnes ayant habité en colocation avec d'autres étudiants ou jeunes actifs.",
+          "prompt": "Rédigez un article pour partager votre expérience personnelle. Décrivez l'organisation au quotidien avec vos colocataires (gestion des tâches, repas) et donnez votre avis sur les avantages et inconvénients de ce mode de logement.",
+          "rules": ["120 à 150 mots", "Récit structuré au passé"],
+          "hint": "Utilisez le passé composé et l'imparfait pour raconter des anecdotes précises avant de conclure avec des conseils pour les futurs colocataires."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "Les objets connectés au quotidien",
+          "range": [120, 180],
+          "instruction": "Document A : Les objets connectés (montres, domotique) facilitent la vie quotidienne en automatisant les tâches et en permettant de suivre sa santé en temps réel. Document B : La multiplication des 50 milliards d'objets connectés pose de graves risques de piratage, de fuite de données personnelles et de cybercriminalité.",
+          "prompt": "Synthétisez et rapprochez les deux points de vue dans une première partie, puis exprimez votre opinion personnelle argumentée sur la place des objets connectés dans notre quotidien.",
+          "rules": ["120 à 180 mots au total", "Ne pas recopier le texte original"],
+          "hint": "Consacrez environ 40-50 mots à la reformulation comparative des deux documents, puis 80-100 mots à vos propres arguments."
+        }
+      ]
+    },
+    "TCF - Simulation 2": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Impression sur la nouvelle université",
+          "range": [60, 120],
+          "instruction": "Un ami vous envoie un courriel pour savoir comment se déroule votre rentrée dans votre nouvel établissement d'enseignement supérieur.",
+          "prompt": "Répondez à son message en décrivant l'ambiance avec les autres étudiants, vos premières impressions sur les professeurs, les cours et le campus.",
+          "rules": ["60 à 120 mots", "Registre informel"],
+          "hint": "Répondez clairement aux trois questions posées (étudiants, profs, locaux) avec un ton enthousiaste."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Partir un an à l'étranger",
+          "range": [120, 150],
+          "instruction": "Le forum 'voyage.internaute.fr' lance un appel à témoignages : 'Partir vivre ou étudier un an à l'étranger et tout quitter : est-ce une bonne expérience ?'",
+          "prompt": "Écrivez un message sur ce forum pour raconter une expérience où vous (ou un proche) êtes parti vivre dans un autre pays. Décrivez les difficultés d'adaptation au début et les bénéfices culturels et personnels retenus.",
+          "rules": ["120 à 150 mots"],
+          "hint": "Mettez en valeur les étapes du changement : le départ, le choc culturel, l'adaptation et le bilan final."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "L'aide aux personnes sans-abri",
+          "range": [120, 180],
+          "instruction": "Document A : Donner de l'argent et des vêtements en hiver aux associations est un devoir moral indispensable pour soulager immédiatement la souffrance des sans-abri. Document B : Donner uniquement de l'argent ne résout pas le problème fondamental ; la priorité doit être la réinsertion professionnelle et le relogement durable pour les rendre autonomes.",
+          "prompt": "Présentez brièvement les deux positions exprimées dans les textes, puis donnez votre avis personnel argumenté sur la meilleure façon d'aider les personnes défavorisées.",
+          "rules": ["120 à 180 mots", "Syntactiquement riche et sans plagiat"],
+          "hint": "Utilisez des connecteurs logiques de comparaison (Alors que le premier extrait souligne..., le second avance que...) suivis d'arguments personnels."
+        }
+      ]
+    },
+    "TCF - Simulation 3": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Recherche de logement à la campagne",
+          "range": [60, 120],
+          "instruction": "Vous avez décidé d'abandonner votre appartement en centre-ville pour chercher une maison au calme.",
+          "prompt": "Écrivez un message à un(e) ami(e) vivant à la campagne pour lui annoncer votre projet, lui demander des conseils sur les zones agréables où s'installer et lui demander son aide pour les démarches.",
+          "rules": ["60 à 120 mots", "Ton amical"],
+          "hint": "Expliquez les raisons de votre départ (espace, calme, budget) et proposez une date pour venir lui rendre visite."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Concours 'Mon artiste préféré'",
+          "range": [120, 150],
+          "instruction": "Vous participez à un concours de blog dont le thème est 'Présentez votre artiste favori' pour tenter de gagner deux semaines de voyage.",
+          "prompt": "Rédigez un article sur votre blog pour présenter un peintre, musicien ou écrivain que vous admirez particulièrement. Racontez comment vous avez découvert son travail et ce que ses œuvres vous apportent.",
+          "rules": ["120 à 150 mots"],
+          "hint": "Nommez l'artiste, l'œuvre clé qui vous a marqué(e), et partagez le ressenti émotionnel ou intellectuel qu'il suscite en vous."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "La gratuité des transports publics",
+          "range": [120, 180],
+          "instruction": "Document A : Rendre les transports en commun gratuits permet de désengorger le trafic routier, d'améliorer la qualité de l'air et d'assurer une justice sociale. Document B : La gratuité détériore la qualité des services par manque d'investissements financiers et surcharge inutilement les bus et métros aux heures de pointe.",
+          "prompt": "Synthétisez les idées divergentes des deux documents puis donnez votre point de vue argumenté sur la pertinence de la gratuité des transports publics.",
+          "rules": ["120 à 180 mots", "Vocabulaire formel (B2/C1)"],
+          "hint": "Soignez les mots de liaison (Bien que, Néanmoins, Il est incontestable que) pour faire monter votre note en syntaxe."
+        }
+      
+
+
+
+      ]
+    },
+
+"TCF - Simulation 1": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Aide pour trouver un logement / une colocation",
+          "range": [60, 120],
+          "instruction": "Vous cherchez un appartement ou une colocation pour vos futures études ou votre nouvel emploi dans une autre ville.",
+          "prompt": "Écrivez un message à un(e) ami(e) vivant dans cette ville pour lui annoncer votre arrivée, lui expliquer ce que vous recherchez comme logement (type, budget, quartier) et lui demander s'il/elle a des pistes ou des contacts à vous recommander.",
+          "rules": ["60 à 120 mots", "Ton amical et informel"],
+          "hint": "Mentionnez vos critères clés (loyer max, nombre de pièces, proximité des transports) et proposez une rencontre."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Partager une initiative écologique ou bénévolat",
+          "range": [120, 150],
+          "instruction": "Le blog 'Citoyens Engagés' propose à ses lecteurs de raconter une action bénévole ou une initiative solidaire/écologique à laquelle ils ont participé récemment.",
+          "prompt": "Rédigez un article de blog pour raconter votre participation à un événement (nettoyage de quartier, collecte alimentaire, aide aux aînés). Décrivez l'organisation, le déroulement de la journée et le sentiment de satisfaction ou de solidarité ressenti.",
+          "rules": ["120 à 150 mots", "Titre obligatoire", "Récit au passé"],
+          "hint": "N'oubliez pas d'inclure un titre accrocheur, puis d'utiliser le passé composé et l'imparfait."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "L'uniforme obligatoire à l'école",
+          "range": [120, 180],
+          "instruction": "Document 1 : L'instauration de l'uniforme scolaire permet d'effacer les inégalités sociales entre élèves, de réduire le harcèlement lié à l'apparence et de renforcer le sentiment d'appartenance à l'établissement. Document 2 : Imposer l'uniforme restreint la liberté d'expression et l'individualité des jeunes, tout en représentant un coût financier supplémentaire inutile pour les familles sans garantir de meilleurs résultats scolaires.",
+          "prompt": "Dans une première partie (40-60 mots), reformulez et comparez les deux points de vue présentés dans les documents. Dans une seconde partie (80-120 mots), exprimez votre avis personnel argumenté sur l'imposition de l'uniforme dans les écoles.",
+          "rules": ["120 à 180 mots au total", "Ne pas recopier les phrases exactes des textes"],
+          "hint": "Conservez environ 50 mots pour la synthèse objective et 100 mots pour votre argumentation avec des exemples."
+        }
+      ]
+    },
+    "TCF - Simulation 2": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Inscription et conseil pour une activité sportive/culturelle",
+          "range": [60, 120],
+          "instruction": "Votre ami(e) pratique un sport ou une activité artistique que vous aimeriez commencer la semaine prochaine.",
+          "prompt": "Écrivez-lui un message pour exprimer votre intérêt, lui poser des questions pratiques (jours de cours, tarifs, équipement nécessaire) et lui demander si vous pouvez l'accompagner au prochain cours d'essai.",
+          "rules": ["60 à 120 mots", "Registre informel"],
+          "hint": "Posez au moins deux questions précises et proposez de faire le trajet ensemble."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Un entretien d'embauche marquant",
+          "range": [120, 150],
+          "instruction": "Dans le cadre d'une rubrique 'Parcours professionnel' sur un réseau social professionnel, on vous demande de témoigner d'un entretien d'embauche marquant.",
+          "prompt": "Racontez la préparation et le déroulement d'un entretien d'embauche que vous avez passé (qui s'est très bien déroulé ou qui vous a surpris). Expliquez ce que vous avez appris de cette expérience et comment cela a influencé votre carrière.",
+          "rules": ["120 à 150 mots"],
+          "hint": "Mettez en scène la préparation, les questions posées lors de l'entretien et la conclusion (l'embauche ou la leçon retenue)."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "L'interdiction des smartphones chez les jeunes",
+          "range": [120, 180],
+          "instruction": "Document 1 : Interdire les smartphones aux enfants de moins de 15 ans protège leur santé mentale, améliore leur sommeil et favorise l'attention ainsi que les véritables interactions sociales. Document 2 : Le téléphone portable est un outil pédagogique et de communication indispensable qui apprend aux jeunes à naviguer dans le monde numérique sous la supervision des parents.",
+          "prompt": "Faites une synthèse comparative des deux documents, puis donnez votre position personnelle argumentée concernant la régulation ou l'interdiction de l'usage des smartphones par les mineurs.",
+          "rules": ["120 à 180 mots", "Vocabulaire formel, connecteurs logiques"],
+          "hint": "Utilisez des formules de synthèse comme 'Alors que le premier extrait met en avant... le second souligne plutôt...'."
+        }
+      ]
+    },
+    "TCF - Simulation 3 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Organisation d'un week-end ou d'une sortie",
+          "range": [60, 120],
+          "instruction": "Vous souhaitez organiser un week-end au grand air ou une excursion culturelle avec un groupe d'amis.",
+          "prompt": "Rédigez un message adressé à vos amis pour leur proposer votre projet. Décrivez la destination, le programme envisagé (activités, hébergement), et demandez-leur de confirmer leur disponibilité.",
+          "rules": ["60 à 120 mots", "Ton amical"],
+          "hint": "Proposez deux dates possibles et fixez un délai pour leur réponse."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Récit d'apprentissage d'une langue étrangère",
+          "range": [120, 150],
+          "instruction": "Le site 'Apprendre Autrement' cherche des histoires inspirantes d'apprenants de langues.",
+          "prompt": "Racontez comment vous avez appris une langue étrangère (ou le français) lors d'un séjour à l'étranger ou d'une immersion. Décrivez la méthode ou les moments clés qui vous ont fait progresser rapidement.",
+          "rules": ["120 à 150 mots", "Titre accrocheur"],
+          "hint": "Expliquez la situation initiale, l'élément déclencheur du progrès (ex: rencontrer des locaux, regarder des films sans sous-titres) et le résultat."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "Le passage au 100% paiement numérique (société sans cash)",
+          "range": [120, 180],
+          "instruction": "Document 1 : Abandonner totalement l'argent liquide accélère les transactions, réduit la fraude fiscale, le vol et modernise la gestion financière au quotidien. Document 2 : Une société sans argent comptant exclut les personnes âgées ou vulnérables et pose un risque majeur pour la vie privée et la liberté individuelle en traçant chaque dépense.",
+          "prompt": "Présentez brièvement les arguments des deux auteurs, puis développez votre opinion personnelle concernant la disparition progressive de l'argent liquide.",
+          "rules": ["120 à 180 mots", "Syntaxe soignée (B2/C1)"],
+          "hint": "Utilisez des connecteurs d'opposition (Cependant, En revanche, Néanmoins) pour articuler votre transition entre la synthèse et votre avis."
+        }
+      ]
+    },
+"TCF - Simulation 4 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Nouveau travail et premières impressions",
+          "range": [60, 120],
+          "instruction": "Vous venez de terminer votre première semaine dans votre nouvel emploi.",
+          "prompt": "Écrivez un courriel à votre ancien collègue de bureau pour lui raconter comment cela se passe. Décrivez votre nouveau lieu de travail, ce que vous préférez dans vos nouvelles missions et proposez-lui de vous retrouver pour un café.",
+          "rules": ["60 à 120 mots", "Ton amical"],
+          "hint": "Évoquez vos impressions sur vos collègues/missions et donnez une proposition concrète de rendez-vous."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Proposition de vacances écologiques et locales",
+          "range": [120, 150],
+          "instruction": "Vos amis ont proposé d'organiser un voyage très coûteux et lointain en avion.",
+          "prompt": "Rédigez un message sur le groupe de discussion de vos amis pour refuser poliment leur projet et proposer une alternative de vacances locales ou écologiques. Racontez une expérience passée similaire pour montrer les avantages économiques et environnementaux de ce choix.",
+          "rules": ["120 à 150 mots", "Utiliser le passé et le conditionnel/présent"],
+          "hint": "Faites une concession amicale, proposez l'alternative (ex: gîte, vélo), puis justifiez avec votre expérience."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "Les menus sans viande dans les cantines scolaires",
+          "range": [120, 180],
+          "instruction": "Document A : Remplacer la viande par des alternatives végétales à la cantine scolaire permet de réduire l'empreinte écologique, de faire faire des économies aux familles et de diversifier l'alimentation des enfants. Document B : La cantine représente souvent le seul repas équilibré avec de la viande pour les enfants issus de familles défavorisées, et imposer ces menus pénalise les éleveurs locaux.",
+          "prompt": "Dans une première partie, synthétisez les deux positions sur la suppression de la viande dans les cantines. Dans une seconde partie, exprimez votre opinion personnelle argumentée sur ce sujet.",
+          "rules": ["120 à 180 mots", "Reformulation et connecteurs logiques"],
+          "hint": "Résumez les deux axes (santé/environnement vs justice sociale/filière locale) puis développez votre avis personnel."
+        }
+      ]
+    },
+    "TCF - Simulation 5 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Organisation d'une grande fête",
+          "range": [60, 120],
+          "instruction": "Vous souhaitez organiser une grande fête pour rassembler tous vos amis.",
+          "prompt": "Écrivez un message à vos amis pour leur présenter votre projet de fête (date, lieu, thème particulier) et demandez-leur de vous aider pour la préparation (nourriture, décoration, musique).",
+          "rules": ["60 à 120 mots", "Ton enthousiaste et amical"],
+          "hint": "Fixez le rendez-vous, décrivez le thème et répartissez quelques rôles d'organisation."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Une compétition ou un défi personnel réussi",
+          "range": [120, 150],
+          "instruction": "Vous avez récemment franchi un cap en participant pour la première fois à un événement ou concours (sport, musique, écriture).",
+          "prompt": "Rédigez un article pour votre site web ou blog personnel. Racontez le déroulement de cette journée, l'ambiance, vos émotions durant l'épreuve et expliquez ce que ce défi vous a apporté au niveau personnel.",
+          "rules": ["120 à 150 mots", "Titre accrocheur requis"],
+          "hint": "Structurer la montée en pression, l'événement lui-même et le bilan émotionnel/personnel tiré."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "L'agencement des bureaux : Open Space vs Bureaux fermés",
+          "range": [120, 180],
+          "instruction": "Document A : L'aménagement en open space favorise la communication entre collaborateurs, stimule la créativité collective et renforce la réactivité des équipes. Document B : Le travail en plateau ouvert génère un bruit constant, augmente les distractions, favorise le stress et nuit gravement à la concentration individuelle.",
+          "prompt": "Présentez de manière synthétique les deux visions de l'organisation des espaces de travail, puis donnez votre avis personnel argumenté sur la disposition idéale d'un bureau moderne.",
+          "rules": ["120 à 180 mots", "Syntactiquement riche, sans recopier les textes"],
+          "hint": "Utilisez une formule d'opposition (Si certains plébiscitent l'open space pour..., d'autres dénoncent...) avant votre opinion."
+        }
+      ]
+    },
+    "TCF - Simulation 6 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Installation dans une nouvelle ville",
+          "range": [60, 120],
+          "instruction": "Vous venez de vous installer dans une nouvelle ville pour poursuivre vos études ou votre carrière.",
+          "prompt": "Écrivez un courriel à un membre de votre famille (cousin/cousine) pour lui raconter votre installation. Décrivez votre quartier et expliquez ce qui vous plaît le plus dans cette nouvelle vie.",
+          "rules": ["60 à 120 mots", "Registre informel/familial"],
+          "hint": "Mentionnez le logement, la proximité des commerces ou parcs, et exprimez votre satisfaction générale."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Avis sur les espaces verts en ville",
+          "range": [120, 150],
+          "instruction": "La municipalité de votre ville a récemment inauguré de nouveaux parcs et aménagements végétaux.",
+          "prompt": "Rédigez un article de témoignage sur le site internet de votre municipalité. Racontez comment vous utilisez désormais ces espaces verts avec vos proches et donnez votre opinion sur cette politique environnementale.",
+          "rules": ["120 à 150 mots", "Titre obligatoire"],
+          "hint": "Donnez un exemple d'activité au parc (balade, sport) et soulignez les bienfaits pour la santé et le cadre de vie."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "L'interdiction de la publicité ciblé / panneaux en ville",
+          "range": [120, 180],
+          "instruction": "Document A : Supprimer les panneaux publicitaires urbains réduit la pollution visuelle, préserve le paysage des villes et protège les citoyens contre la surconsommation incitée. Document B : La publicité extérieure est essentielle pour informer les consommateurs, soutenir l'économie des commerces locaux et financer les services de transports publics.",
+          "prompt": "Exposez les arguments des deux documents, puis développez votre position personnelle sur la présence de la publicité dans l'espace public.",
+          "rules": ["120 à 180 mots", "Vocabulaire B2/C1 et connecteurs logiques"],
+          "hint": "Structurez en deux blocs clairs (synthèse comparative ~45 mots + opinion argumentée ~110 mots)."
+        }
+      ]
+    },
+"TCF - Simulation 7 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Conseils pour un voyage",
+          "range": [60, 120],
+          "instruction": "Votre ami(e) prépare ses vacances d'été dans une région ou un pays que vous connaissez très bien.",
+          "prompt": "Écrivez-lui un message pour lui donner des conseils de logement, lui recommander des lieux insolites à visiter et lui proposer de lui prêter du matériel de voyage.",
+          "rules": ["60 à 120 mots", "Ton amical"],
+          "hint": "Citez au moins deux lieux à visiter et donnez un conseil pratique de transport ou de logement."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Travailler pendant ses études",
+          "range": [120, 150],
+          "instruction": "Un site d'orientation étudiante demande aux étudiants de témoigner sur le cumul d'un travail à temps partiel et des études.",
+          "prompt": "Rédigez un article pour raconter votre expérience (ou celle d'un proche) d'un petit boulot étudiant. Décrivez comment vous gériez votre emploi du temps et ce que cette activité vous a apporté sur le plan personnel ou financier.",
+          "rules": ["120 à 150 mots", "Titre obligatoire"],
+          "hint": "Expliquez l'organisation quotidienne, l'impact sur les révisions et le bilan de cette double responsabilité."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "L'interdiction des voitures autour des écoles",
+          "range": [120, 180],
+          "instruction": "Document A : Fermer les rues devant les écoles aux voitures durant les heures de rentrée et de sortie garantit la sécurité des enfants et réduit directement la pollution de l'air aux abords des établissements. Document B : Cette mesure crée de gros embouteillages dans les rues voisines et complique fortement le quotidien des parents qui travaillent loin ou ont des horaires contraints.",
+          "prompt": "Présentez brièvement les deux positions exprimées dans les documents, puis donnez votre avis personnel argumenté sur la piétonnisation des abords d'écoles.",
+          "rules": ["120 à 180 mots au total", "Pas de copier-coller des textes"],
+          "hint": "Dédiez environ 45 mots à la synthèse comparative, puis développez 2 arguments personnels illustrés d'exemples."
+        }
+      ]
+    },
+    "TCF - Simulation 8 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Demande de service / Garde d'animaux",
+          "range": [60, 120],
+          "instruction": "Vous devez partir quelques jours en déplacement professionnel ou en vacances imprévues.",
+          "prompt": "Écrivez un message à votre voisin(e) ou ami(e) pour lui demander de garder votre animal de compagnie (ou d'arroser vos plantes). Expliquez votre situation, donnez les consignes nécessaires et proposez-lui un dédommagement ou une compensation.",
+          "rules": ["60 à 120 mots", "Ton courtois et amical"],
+          "hint": "Indiquez les dates exactes, la fréquence des visites et proposez un service en retour."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Réparer plutôt qu'acheter neuf",
+          "range": [120, 150],
+          "instruction": "Dans le cadre d'une semaine sur la consommation responsable, un blog environnemental vous demande d'apporter votre témoignage.",
+          "prompt": "Racontez une expérience où vous avez décidé de réparer un objet cassé (appareil électroménager, vélo, vêtement, téléphone) au lieu d'en acheter un nouveau. Expliquez les démarches effectuées et la satisfaction obtenue.",
+          "rules": ["120 à 150 mots"],
+          "hint": "Mettez en valeur le problème initial, la recherche de solution (tutoriel, atelier collaboratif, artisan) et la fierté d'avoir évité le gaspillage."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "Le télétravail depuis l'étranger (nomadisme numérique)",
+          "range": [120, 180],
+          "instruction": "Document A : Travailler à distance depuis n'importe quel pays offre une grande liberté individuelle, stimule l'inspiration et améliore la qualité de vie des employés. Document B : Le nomadisme numérique complique la gestion d'équipe pour les entreprises, pose des problèmes juridiques/fiscaux et favorise l'isolement professionnel du salarié.",
+          "prompt": "Synthétisez les points de vue des deux auteurs puis rédigez un texte argumenté exprimant votre avis sur la possibilité de travailler en ligne depuis l'étranger.",
+          "rules": ["120 à 180 mots", "Vocabulaire soutenu et connecteurs B2/C1"],
+          "hint": "Opposez l'épanouissement personnel aux contraintes organisationnelles/légales, puis tranchez dans votre avis personnel."
+        }
+      ]
+    },
+    "TCF - Simulation 9 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Anniversaire surprise",
+          "range": [60, 120],
+          "instruction": "Vous organisez une fête d'anniversaire surprise pour un ami commun.",
+          "prompt": "Écrivez un message secret à un groupe d'amis pour leur présenter l'idée. Donnez la date, le lieu, demandez-leur de garder le secret et répartissez les tâches (cadeau, gâteau, décoration).",
+          "rules": ["60 à 120 mots", "Ton enthousiaste et complice"],
+          "hint": "Insistez sur la discrétion et donnez une heure d'arrivée précise avant le héros de la fête."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Vie en métropole vs Vie en petite ville",
+          "range": [120, 150],
+          "instruction": "Un forum d'urbanisme propose un débat : 'Racontez votre transition entre la grande métropole et la province/petite ville'.",
+          "prompt": "Rédigez votre témoignage pour raconter ce changement de cadre de vie (vécu par vous ou un proche). Expliquez les raisons du départ, les premières impressions et le bilan tiré aujourd'hui.",
+          "rules": ["120 à 150 mots", "Titre accrocheur"],
+          "hint": "Confrontez le rythme effréné de la grande ville à la tranquillité de la petite ville et concluez sur la qualité de vie globale."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "La suppression de la note chiffrée à l'école",
+          "range": [120, 180],
+          "instruction": "Document A : Remplacer les notes sur 20 par des évaluations par compétences réduit l'anxiété des élèves, encourage les progrès et évite la stigmatisation de l'échec. Document B : Les notes chiffrées sont un repère indispensable et clair pour les familles, et préparent efficacement les jeunes à la compétition du monde professionnel.",
+          "prompt": "Reformulez la controverse présentée par les deux documents puis donnez votre opinion argumentée sur l'abandon des notes traditionnelles à l'école.",
+          "rules": ["120 à 180 mots", "Syntaxe fluide et articulée"],
+          "hint": "Utilisez des transitions claires : *Alors que le premier extrait plaide pour..., le second met plutôt en garde contre... Pour ma part, je considère que...*"
+        }
+      ]
+    },
+"TCF - Simulation 10 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Changement de programme de dernière minute",
+          "range": [60, 120],
+          "instruction": "Vous devez vous rendre à un rendez-vous important avec un(e) ami(e), mais un imprévu de transport ou de travail vous oblige à le décaler.",
+          "prompt": "Écrivez-lui un message pour vous excuser, expliquer brièvement la raison du retard ou du report, et lui proposer une nouvelle date ou un nouvel horaire de rendez-vous.",
+          "rules": ["60 à 120 mots", "Ton amical et poli"],
+          "hint": "Exprimez vos excuses, donnez la cause rapidement et fixez une solution immédiate."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Une panne de courant ou un événement météo mémorable",
+          "range": [120, 150],
+          "instruction": "Un site d'actualités locales demande aux habitants de partager un souvenir marquant lié à une coupure d'électricité géante ou à une tempête soudaine.",
+          "prompt": "Rédigez un court article ou témoignage pour raconter comment vous avez vécu cet événement. Décrivez la surprise initiale, la façon dont les voisins ou les proches se sont entraidés, et ce que vous avez ressenti.",
+          "rules": ["120 à 150 mots", "Récit au passé"],
+          "hint": "Mettez en valeur l'ambiance inhabituelle, l'entraide collective et la résolution de la situation."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "L'obligation du tri sélectif et des amendes",
+          "range": [120, 180],
+          "instruction": "Document 1 : Instaurer des amendes financières strictes pour les citoyens qui ne font pas le tri sélectif des déchets est indispensable pour obliger chacun à respecter l'environnement. Document 2 : La sensibilisation, l'éducation civique et la mise en place de structures plus simples sont beaucoup plus efficaces que la répression pour encourager les écogestes.",
+          "prompt": "Faites une synthèse comparative des deux documents, puis exprimez votre point de vue argumenté sur la meilleure méthode pour inciter la population à recycler.",
+          "rules": ["120 à 180 mots", "Vocabulaire argumentatif et connecteurs logiques"],
+          "hint": "Opposez l'approche coercitive (amendes) à l'approche pédagogique (sensibilisation) avant de donner votre avis personnel."
+        }
+      ]
+    },
+    "TCF - Simulation 11 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Proposer une colocation ou un échange de services",
+          "range": [60, 120],
+          "instruction": "Vous avez une chambre libre dans votre logement ou vous souhaitez proposer un système d'échange de services de bricolage/jardinage avec un voisin.",
+          "prompt": "Écrivez un message à votre voisin pour lui présenter votre proposition, préciser les conditions et lui demander s'il est intéressé.",
+          "rules": ["60 à 120 mots", "Ton courtois et direct"],
+          "hint": "Précisez la nature de l'échange ou de la location et proposez un moment pour en discuter de vive voix."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Le jour où vous avez perdu un objet précieux",
+          "range": [120, 150],
+          "instruction": "Un magazine de société lance un appel à témoignages : 'Racontez le jour où vous avez égaré un objet ou un document très important et comment vous l'avez retrouvé (ou non)'.",
+          "prompt": "Rédigez votre témoignage. Racontez le moment de la panique, les recherches menées et l'issue de cette mésaventure.",
+          "rules": ["120 à 150 mots", "Utilisation du passé composé et de l'imparfait"],
+          "hint": "Structurez votre récit chronologiquement : l'oubli, la recherche stressante, et le soulagement final."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "Le paiement en cryptomonnaies",
+          "range": [120, 180],
+          "instruction": "Document 1 : Les cryptomonnaies (comme le Bitcoin) offrent un système de paiement mondial, rapide, décentralisé et indépendant des banques traditionnelles. Document 2 : L'extrême volatilité des cryptomonnaies, leur impact écologique désastreux et l'absence de régulation en font un outil risqué et propice aux fraudes financières.",
+          "prompt": "Présentez brièvement les arguments des deux documents, puis exprimez votre avis personnel argumenté sur l'avenir et l'utilité des monnaies virtuelles.",
+          "rules": ["120 à 180 mots", "Syntaxe formelle et rigoureuse"],
+          "hint": "Rapprochez les deux visions (innovation financière vs risques et écologie) et donnez votre position nuancée."
+        }
+      ]
+    },
+    "TCF - Simulation 12 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Alerter un propriétaire ou une agence de location",
+          "range": [60, 120],
+          "instruction": "Un problème technique important est survenu dans votre appartement (fuite d'eau, panne de chauffage en hiver).",
+          "prompt": "Écrivez un message au propriétaire ou à l'agence pour lui signaler la panne, décrire les dégâts constatés et lui demander d'intervenir en urgence.",
+          "rules": ["60 à 120 mots", "Ton formel et poli"],
+          "hint": "Mentionnez la date d'apparition du problème, les risques potentiels et exigez une action rapide."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Une excursion en montagne ou en pleine nature ratée",
+          "range": [120, 150],
+          "instruction": "Le blog 'Aventures et Randonnées' vous invite à partager un souvenir de randonnée qui ne s'est pas déroulé comme prévu.",
+          "prompt": "Racontez une sortie en pleine nature où la météo ou un mauvais balisage a compliqué votre journée. Décrivez comment vous avez surmonté la difficulté.",
+          "rules": ["120 à 150 mots", "Récit narratif vivant"],
+          "hint": "Mettez en scène le changement de situation (ex: pluie soudaine), votre réaction et la fin heureuse de l'escapade."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "La semaine de quatre jours à l'école pour les enfants",
+          "range": [120, 180],
+          "instruction": "Document 1 : Instaurer la semaine de quatre jours à l'école permet aux enfants de se reposer davantage, de passer plus de temps en famille et de réduire la fatigue chronique. Document 2 : Des journées d'école trop longues combinées à quatre jours de classe nuisent aux apprentissages fondamentaux et accentuent les inégalités de garde pour les parents qui travaillent.",
+          "prompt": "Synthétisez les points de vue divergents des deux textes, puis donnez votre avis personnel argumenté sur le rythme scolaire des enfants.",
+          "rules": ["120 à 180 mots", "Vocabulaire précis et connecteurs d'opposition"],
+          "hint": "Faites une synthèse équilibrée en 40-50 mots, puis développez votre opinion avec des arguments concrets."
+        }
+      ]
+    },
+    "TCF - Simulation 13 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Inviter un voisin à un dîner de quartier",
+          "range": [60, 120],
+          "instruction": "Vous organisez un repas convivial pour faire connaissance avec les nouveaux voisins de votre immeuble.",
+          "prompt": "Écrivez un mot à glisser dans la boîte aux lettres de votre voisin pour l'inviter, préciser la date, l'heure et lui demander d'apporter un petit plat ou une boisson s'il le souhaite.",
+          "rules": ["60 à 120 mots", "Ton chaleureux et accueillant"],
+          "hint": "Indiquez votre numéro d'appartement, la date du dîner et l'esprit participatif de la soirée."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Le jour où vous avez testé un sport extrême ou insolite",
+          "range": [120, 150],
+          "instruction": "Le magazine sportif 'Sensations' publie un dossier sur les premières fois dans les sports à sensations.",
+          "prompt": "Racontez votre première expérience d'une activité insolite ou sportive (escalade, plongée, saut en parachute, danse de salon). Décrivez vos peurs initiales et la fierté ressentie après l'effort.",
+          "rules": ["120 à 150 mots"],
+          "hint": "Exprimez l'évolution des émotions : de l'appréhension avant l'épreuve jusqu'à l'euphorie finale."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "La lecture sur écran vs Le livre papier",
+          "range": [120, 180],
+          "instruction": "Document 1 : Les liseuses électroniques et tablettes facilitent le transport d'une bibliothèque entière, réduisent l'abattage d'arbres pour le papier et démocratisent l'accès aux livres. Document 2 : Le livre papier procure un plaisir sensoriel irremplaçable (odeur, toucher), protège la santé des yeux face à la fatigue visuelle et favorise une meilleure mémorisation.",
+          "prompt": "Rapprochez les deux positions dans une première partie, puis exprimez votre point de vue argumenté sur l'avenir de la lecture numérique par rapport au papier.",
+          "rules": ["120 à 180 mots", "Connecteurs logiques et registre formel"],
+          "hint": "Mettez en balance l'aspect pratique/écologique du numérique et le confort sensoriel du papier."
+        }
+      ]
+    },
+    "TCF - Simulation 14 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Proposer une sortie culturelle",
+          "range": [60, 120],
+          "instruction": "Vous avez repéré une exposition artistique ou un spectacle intéressant pour ce week-end.",
+          "prompt": "Écrivez un message à un(e) ami(e) pour lui proposer de vous accompagner. Donnez des détails sur le lieu, le prix et proposez un horaire de rendez-vous.",
+          "rules": ["60 à 120 mots", "Ton amical"],
+          "hint": "Donnez l'envie à votre ami(e) en résumant brièvement pourquoi l'événement vaut le détour."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Le jour où vous avez raté un train ou un vol",
+          "range": [120, 150],
+          "instruction": "Un forum de voyageurs recueille des histoires de galères de transport.",
+          "prompt": "Racontez une fois où vous avez manqué votre train ou votre avion de peu. Décrivez les péripéties vécues à la gare ou à l'aéroport et comment vous avez résolu le problème.",
+          "rules": ["120 à 150 mots"],
+          "hint": "Utilisez le passé composé pour les actions soudaines et l'imparfait pour décrire le décor et l'attente."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "Le développement du tourisme de masse",
+          "range": [120, 180],
+          "instruction": "Document 1 : Le tourisme de masse fait vivre des milliers de familles, dynamise l'économie locale des régions côtières et permet aux gens de voyager à bas coût. Document 2 : L'afflux massif de touristes détruit les écosystèmes fragiles, sature les infrastructures locales et dénature l'authenticité des sites historiques.",
+          "prompt": "Synthétisez les avis des deux documents, puis exprimez votre opinion argumentée sur l'impact global du tourisme de masse.",
+          "rules": ["120 à 180 mots", "Syntaxe soignée et vocabulaire riche"],
+          "hint": "Structurez votre texte en opposant les bienfaits économiques aux dégâts environnementaux et culturels."
+        }
+      ]
+    },
+    "TCF - Simulation 15 ": {
+      "duration_minutes": 60,
+      "sections": [
+        {
+          "title": "Rédiger un message",
+          "name": "Demande de conseils professionnels",
+          "range": [60, 120],
+          "instruction": "Vous envisagez de changer d'orientation professionnelle ou de suivre une formation dans le domaine de votre ami(e).",
+          "prompt": "Écrivez-lui un message pour lui faire part de votre projet, lui poser des questions sur son métier et lui demander s'il serait possible de se voir pour en discuter.",
+          "rules": ["60 à 120 mots", "Ton chaleureux"],
+          "hint": "Expliquez votre motivation principale et proposez un créneau pour un entretien ou un café."
+        },
+        {
+          "title": "Raconter une expérience",
+          "name": "Créer ou participer à un potager urbain",
+          "range": [120, 150],
+          "instruction": "Un magazine de jardinage et de développement durable lance un appel à récits sur les potagers partagés en ville.",
+          "prompt": "Racontez votre participation à la création d'un jardin partagé dans votre quartier. Décrivez l'effort collectif, la plantation des légumes et la récolte finale.",
+          "rules": ["120 à 150 mots", "Titre obligatoire"],
+          "hint": "Mettez en scène la collaboration entre voisins et le plaisir de cultiver ses propres aliments en ville."
+        },
+        {
+          "title": "Exprimer un point de vue",
+          "name": "La présence des animaux domestiques au bureau",
+          "range": [120, 180],
+          "instruction": "Document 1 : Autoriser les salariés à venir travailler avec leur animal de compagnie (chien, chat) réduit le stress au bureau, améliore l'ambiance et favorise la cohésion d'équipe. Document 2 : La présence d'animaux en entreprise peut provoquer des allergies, perturber la concentration, poser des problèmes d'hygiène et indisposer les collègues qui n'aiment pas les animaux.",
+          "prompt": "Faites une synthèse comparative des deux points de vue, puis donnez votre avis personnel argumenté sur les animaux sur le lieu de travail.",
+          "rules": ["120 à 180 mots", "Connecteurs logiques et arguments structurés"],
+          "hint": "Mettez en balance le bien-être psychologique et les contraintes pratiques/hygiéniques avant de conclure."
+        }
+      ]
+    }
+  }
+}
